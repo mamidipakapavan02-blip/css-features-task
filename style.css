@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f5f5f5 url('background.jpg') no-repeat center center fixed;
+    background-size:cover;
+    color:#333333;
+}
+
+#mainHeader{
+    background:linear-gradient(to right,#007BFF,red);
+    padding:20px;
+    text-align:center;
+}
+
+
+.navMenu{
+    list-style:none;
+}
+
+.navMenu li{
+    display:inline-block;
+    margin:10px;
+    padding:10px;
+}
+/* Normal unvisited link */
+a:link{
+    color: #0066ff;
+    text-decoration: none;
+}
+
+/* Visited link */
+a:visited{
+    color: white;
+}
+
+/* Mouse pointer over link */
+a:hover{
+    color: #ff4500;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+/* Active link */
+a:active{
+    color: #00cc00;
+    background-color: yellow;
+}
+
+
+h2{
+    color:#0066cc;
+    margin:20px;
+    text-transform:uppercase;
+}
+
+
+h3,p{
+    padding:10px;
+    line-height:1.8;
+}
+
+
+.eventCard{
+    height:500px;
+    background:rgba(255,255,255,0.8);
+    border:2px solid #007BFF;
+    padding:20px;
+    margin:20px;
+    outline:none;
+    color:#eb15a3;
+}
+
+
+p{
+    font-size:18px;
+    font-style:normal;
+    font-weight:400;
+    letter-spacing:1px;
+    text-align:justify;
+}
+
+
+table{
+    width:80%;
+    margin:20px auto;
+    border-collapse:collapse;
+    text-align:center;
+}
+
+th{
+    background:#007BFF;
+    color:white;
+}
+
+table,th,td{
+    border:1px solid black;
+}
+
+th,td{
+    padding:12px;
+}
+
+tr:nth-child(even){
+    background:#eeeeee;
+}
+
+
+.selectedField:focus{
+    outline:3px solid orange;
+}
+
+
+.news{
+    margin:20px;
+    column-count:2;
+    column-gap:30px;
+    column-rule:1px solid gray;
+}
+
+.form-box{
+    width:500px;
+    margin:50px auto;
+    padding:20px;
+    background:white;
+    border-radius:8px;
+    text-align:center;
+}
+
+input,select,button{
+    width:80%;
+    padding:10px;
+    margin:8px 0;
+    box-sizing:border-box;
+}
+
+button{
+    background:#007BFF;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+.hiddenBox{
+    visibility:hidden;
+}
+
+.noneBox{
+    display:none;
+}
+
+
+@media screen and (max-width:768px){
+
+    .navMenu li{
+        display:block;
+    }
+
+    body{
+        font-size:14px;
+    }
+
+    img{
+        width:80%;
+        height:auto;
+    }
+
+    .eventCard{
+        width:90%;
+        margin:auto;
+    }
+}
+
+.MusicCard{
+    background-image:url('MUSIC.png');
+    background-size:cover;
+}
+h3{
+    color:tomato;
+}
+.FoodCard{
+    background-image:url('FOOD.jpg');
+    background-size:cover;
+}
+.SportsCard{
+    background-image:url('sports1.jpg');
+    background-size:cover;
+}

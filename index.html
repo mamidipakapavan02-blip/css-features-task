@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Local Community Event Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body{
+            background-color:#f0f8ff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="color:red;">Local Community Event Portal</h1>
+
+    <header id="mainHeader">
+        <nav>
+            <ul class="navMenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Upcoming Events</h2>
+
+        <div class="eventCard MusicCard">
+            <h3>Music Festival</h3>
+            <p>Enjoy live performances from local artists.</p>
+        </div>
+
+        <div class="eventCard FoodCard">
+            <h3>Food Fair</h3>
+            <p>Experience delicious dishes from around the city.</p>
+        </div>
+        <div class="eventCard SportsCard">
+            <h3>Sports Meet</h3>
+            <p>Join us for a day of fun and fitness activities.</p>
+        </div>
+    </section>
+
+    <section class="news">
+        <h2>Community Bulletin</h2>
+        <p>
+            The local council is organizing several events this month including 
+            music festivals,cultural celebrations,food fair ,environmental awarness
+            clean-up drive this weekend. Volunteers are welcome to join and help 
+            keep our community clean and green.
+        </p>
+    </section>
+
+    <table>
+        <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Venue</th>
+        </tr>
+        <tr>
+            <td>Music Festival</td>
+            <td>15 June</td>
+            <td>Central Park</td>
+        </tr>
+        <tr>
+            <td>Food Fair</td>
+            <td>20 June</td>
+            <td>Community Hall</td>
+        </tr>
+        <tr>
+            <td>Sports Meet</td>
+            <td>25 June</td>
+            <td>Sports Complex</td>
+        </tr>
+    </table>
+
+    <h2>Event Registration</h2>
+
+    <form class="form-box" >
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+
+        <select>
+            <option>Select Event</option>
+            <option>Music Festival</option>
+            <option>Food Fair</option>
+            <option>Sports Meet</option>
+        </select>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <div class="hiddenBox">Visibility Hidden</div>
+    <div class="noneBox">Display None</div>
+
+</body>
+</html>
