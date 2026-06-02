@@ -152,15 +152,6 @@ button:hover{
     background:#0056b3;
 }
 
-.hiddenBox{
-    visibility:hidden;
-}
-
-.noneBox{
-    display:none;
-}
-
-
 @media screen and (max-width:768px){
 
     .navMenu li{
